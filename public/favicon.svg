@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="0.55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.55" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Pixel-ish arcade badge -->
+  <rect x="1" y="1" width="14" height="14" rx="2" fill="#05040a"/>
+  <rect x="1" y="1" width="14" height="14" rx="2" fill="none" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Pixel W (7px wide style, scaled into grid) -->
+  <g fill="url(#g)" filter="url(#glow)" shape-rendering="crispEdges">
+    <!-- left column -->
+    <rect x="4" y="4" width="1" height="8"/>
+    <!-- right column -->
+    <rect x="11" y="4" width="1" height="8"/>
+    <!-- inner legs -->
+    <rect x="6" y="8" width="1" height="4"/>
+    <rect x="9" y="8" width="1" height="4"/>
+    <!-- peaks -->
+    <rect x="5" y="11" width="1" height="1"/>
+    <rect x="10" y="11" width="1" height="1"/>
+    <rect x="7" y="12" width="2" height="1"/>
+  </g>
+</svg>
