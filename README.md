@@ -1,4 +1,4 @@
-# Dynamic Wumpus Logic Agent (Web App)
+# Wumpus World Logic Agent Simulator
 
 A React + TypeScript web application for **Question 6** (Knowledge-Based Agent).  
 The agent explores a Wumpus-style world, receives percepts dynamically, and uses a **Propositional Logic Knowledge Base** with **CNF + Resolution Refutation** to decide safe moves.
