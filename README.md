@@ -78,5 +78,5 @@ https://wumpus-logic-agent-seven.vercel.app/
 
 ## Output
 
-<img width="846" height="830" alt="image" src="https://github.com/user-attachments/assets/baa4a0fc-303c-44d3-9f54-a9b474783414" />
+<img width="860" height="836" alt="image" src="https://github.com/user-attachments/assets/a1d01d75-eb56-46ad-bf98-3cb85e8edb3a" />
 
