@@ -62,30 +62,9 @@ npm run dev
 
 Open the shown local URL (usually `http://localhost:5173`).
 
-## Build for Production
+## Deployed on Vercel
 
-```bash
-cd wumpus-logic-agent
-npm run build
-npm run preview
-```
-
-## Deploy on Vercel
-
-### Option A: Vercel Dashboard (recommended)
-1. Push project to GitHub.
-2. Import repo in Vercel.
-3. Use:
-   - Framework: **Vite**
-   - Build command: `npm run build`
-   - Output directory: `dist`
-4. Deploy and copy your live `.vercel.app` URL.
-
-### Option B: Vercel CLI
-```bash
-cd wumpus-logic-agent
-npx vercel --prod
-```
+https://wumpus-logic-agent-seven.vercel.app/
 
 ## Notes for Assignment Report
 
@@ -96,3 +75,8 @@ npx vercel --prod
   - `¬P(r,c)`
   - `¬W(r,c)`
 - `ASK` succeeds when refutation derives the empty clause.
+
+## Output
+
+<img width="846" height="830" alt="image" src="https://github.com/user-attachments/assets/baa4a0fc-303c-44d3-9f54-a9b474783414" />
+
